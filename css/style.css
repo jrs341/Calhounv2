@@ -36,7 +36,7 @@ p {
 
 .navbar {
     /*background-image: url('../images/background/old_map/old_map.png');*/
-    background-color: #FFF966;
+    background-color: #F5DEB3;
     /*B2AC12*/
 }
 
@@ -66,6 +66,10 @@ p {
 .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus {
     background-color: transparent;
     color: #5a4130;
+}
+
+.dropdown-menu {
+    background-image: url('../images/background/old_map/old_map.png'); 
 }
 
 /* 404 Page Styles */
