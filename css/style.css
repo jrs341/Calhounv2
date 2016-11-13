@@ -19,6 +19,18 @@ p {
     color: #5a4130; 
 }
 
+.jumbotron{
+    background: url('../images/general/P6191146.jpg') no-repeat center center; 
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    margin-top: 1.1em;
+    height: 450px;
+    background-size: cover;
+    /*height: 500px;*/
+}
+
 
 .img-portfolio {
     margin-bottom: 30px;
