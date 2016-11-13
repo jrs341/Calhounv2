@@ -390,6 +390,7 @@
     "buttons.less",
     "responsive-utilities.less",
     "glyphicons.less",
+    "button-groups.less",
     "navs.less",
     "navbar.less",
     "badges.less",
@@ -398,13 +399,15 @@
     "alerts.less",
     "panels.less",
     "responsive-embed.less",
+    "component-animations.less",
     "dropdowns.less"
   ],
   "js": [
     "alert.js",
     "dropdown.js",
     "modal.js",
-    "collapse.js"
+    "collapse.js",
+    "transition.js"
   ],
-  "customizerUrl": "http://getbootstrap.com/customize/?id=40bf9000f99b2ea63e31deb99dbdf0e1"
+  "customizerUrl": "http://getbootstrap.com/customize/?id=c2751306d62b9d966515c0a62a65c1b9"
 }
