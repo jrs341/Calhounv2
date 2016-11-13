@@ -47,7 +47,6 @@ p {
 
 .navbar-inverse .navbar-header>a:hover {
     color: red;
-    font-size: 1.8em;
 }
 
 .navbar-inverse .navbar-nav>li>a {
@@ -62,6 +61,10 @@ p {
   color: red;
 }
 
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus {
+    background-color: transparent;
+    color: #5a4130;
+}
 
 /* 404 Page Styles */
 
