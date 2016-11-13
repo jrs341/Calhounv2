@@ -161,6 +161,12 @@ footer {
     }
 }
 
+@media(min-width:768px) {
+    .navbar>.container .navbar-brand {
+        margin-left: 0px;
+    }
+}
+
 @media(max-width:490px) {
     .navbar-inverse .navbar-brand {
         font-size: 1.5em;
