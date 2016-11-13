@@ -42,7 +42,7 @@ p {
     margin-bottom: 30px;
 }
 
-.img-hover:hover {
+.img-hover: hover {
     opacity: 0.8;
 }
 
@@ -55,9 +55,11 @@ p {
 .navbar-brand {
     float: left;
 }
+
 .navbar-inverse .navbar-brand {
     color: #213fd9;
     font-size: 1.8em;
+    /*text-align: center;*/
 }
 .navbar-inverse .navbar-nav>li>a {
    color: #5a4130; 
@@ -159,19 +161,20 @@ footer {
     }
 }
 
-@media(max-width:991px) {
-    .customer-img,
-    .img-related {
-        margin-bottom: 30px;
+@media(max-width:490px) {
+    .navbar-inverse .navbar-brand {
+        font-size: 1.5em;
     }
 }
 
-@media(max-width:767px) {
-    .img-portfolio {
-        margin-bottom: 15px;
+@media(max-width:437px) {
+    .navbar-inverse .navbar-brand {
+        font-size: 1.3em;
     }
+}
 
-    header.carousel .carousel {
-        height: 70%;
+@media(max-width:402px) {
+    .navbar-inverse .navbar-brand {
+        font-size: 1.0em;
     }
 }
