@@ -35,7 +35,9 @@ p {
 }
 
 .navbar {
-    background-image: url('../images/background/old_map/old_map.png');
+    /*background-image: url('../images/background/old_map/old_map.png');*/
+    background-color: #FFF966;
+    /*B2AC12*/
 }
 
 
@@ -46,7 +48,7 @@ p {
 }
 
 .navbar-inverse .navbar-header>a:hover {
-    color: red;
+    color: #213fd9;
 }
 
 .navbar-inverse .navbar-nav>li>a {
@@ -58,7 +60,7 @@ p {
 .navbar-inverse .navbar-nav>li>a:hover{
   background-color: none;
   text-decoration: none;
-  color: red;
+  color: #213fd9;
 }
 
 .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus {
