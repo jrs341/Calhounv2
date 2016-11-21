@@ -35,12 +35,8 @@ p {
 }
 
 .navbar {
-    /*background-image: url('../images/background/old_map/old_map.png');*/
     background-color: #F5DEB3;
-    /*B2AC12*/
 }
-
-
 
 .navbar-inverse .navbar-brand {
     color: #213fd9;
@@ -70,6 +66,15 @@ p {
 
 .dropdown-menu {
     background-image: url('../images/background/old_map/old_map.png'); 
+}
+
+.dropdown-menu>li>a {
+    color: #5a4130;
+}
+
+.dropdown-menu>li>a:hover {
+    color: #213fd9;
+    background-color: #F5DEB3; 
 }
 
 /* 404 Page Styles */
@@ -241,6 +246,18 @@ footer {
 @media(min-width:768px) {
     .navbar>.container .navbar-brand {
         margin-left: 0px;
+    }
+}
+
+@media(max-width: 767px) {
+    .navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+        color: #5a4130;
+        /*background-color: #F5DEB3;*/
+    }
+
+    .navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover {
+        color: #213fd9; 
+        background-color: #F5DEB3;
     }
 }
 
