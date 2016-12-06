@@ -27,6 +27,11 @@ header {
     margin-top: 2px;
 }
 
+.mainImageLoading {
+    height: 400px;
+    background: url('../images/general/loading.gif') 50% no-repeat;
+}
+
 .headerImage {
     background: url('../images/general/P6191146.jpg') no-repeat center center; 
     -webkit-background-size: 100% 100%;
