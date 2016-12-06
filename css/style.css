@@ -55,19 +55,23 @@ header {
 }
 
 .navbar-inverse .navbar-toggle {
-    border-color: #213fd9;
+    border-color: #5a4130;
     background-image: url('../images/background/old_map/old_map.png');
     /*background-color: #F5DEB3;*/
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #5a4130;
 }
 
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
     /*background-color: #5a4130;*/
     border: 2.4px;
-    border-color: #213fd9;
+    border-color: #5a4130;
 }
 
 .navbar-inverse .navbar-header>a:hover {
-    color: #213fd9;
+    color: #5a4130;
 }
 
 .navbar-inverse .navbar-nav>li>a {
