@@ -17,13 +17,17 @@ p {
     color: #5a4130; 
 }
 
+header {
+    height: 400px;
+}
+
 #logo {
     float: left;
     height: 45px;
     margin-top: 2px;
 }
 
-.jumbotron {
+.headerImage {
     background: url('../images/general/P6191146.jpg') no-repeat center center; 
     -webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
