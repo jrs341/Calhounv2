@@ -131,7 +131,9 @@ header {
 
 .page-header {
     text-align: center;
-     color: #5a4130; 
+    color: #5a4130; 
+    border-bottom: none;
+    font-size: 3.5em;
 }
 
 /* Footer Styles */
