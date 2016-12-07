@@ -11,6 +11,11 @@ body {
     background-image: url('../images/background/old_map/old_map.png');
 }
 
+h3 {
+    color: #5a4130;
+    text-decoration: underline;
+}
+
 p {
     line-height: 1.6;
     font-size: 1.6em;
@@ -19,6 +24,11 @@ p {
 
 header {
     height: 400px;
+}
+
+label {
+    color: #5a4130;
+    font-size: 20px;
 }
 
 #logo {
@@ -136,6 +146,11 @@ header {
     font-size: 3.5em;
 }
 
+.btn-primary {
+    color: #fff;
+    background-color: #213fd9;
+    border-color: #2e6da4;
+}
 /* Footer Styles */
 
 footer {

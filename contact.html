@@ -122,104 +122,47 @@
         <div class="row">
             <div class="col-lg-12">
                 <h1 class="page-header">Contact Calhoun's
-                    <!-- <small>Calhoun's</small> -->
                 </h1>
-                <!-- <ol class="breadcrumb">
-                    <li><a href="index.html">Home</a>
-                    </li>
-                    <li class="active">Contact</li>
-                </ol> -->
             </div>
         </div>
         <!-- /.row -->
-        <!-- <div class="row text-center">
-            <table>
-                <tr>
-                    <th><i class="fa fa-clock-o"></i><abbr title="Hours">Hours</abbr>
-                    </th>
-                    <th>Contact Information</th>
-                     <th>Adress</th>  
-                </tr>
-                <tr>
-                    <td>
-                        <p>Monday - Friday: 9:00 AM to 6:00 PM<br>
-                        Saturday - Sunday 9:00 AM to 4:00 PM</p>
-                    </td>
-                    <td>
-                        <p><i class="fa fa-phone"></i> 
-                        <abbr title="Phone">P</abbr>: (361) 550-7536<br>
-                        <i class="fa fa-envelope-o"></i> 
-                        <abbr title="Email">E</abbr>: <a href="mailto:name@example.com">calhoun@calhounsrvretreats.com</a></p>                       
-                    </td>
-                    <td>
-                        <p>125 Haeber Ln<br>
-                        Tivoli, TX 77990</p>
-                    </td>                   
-            </table>
-        </div> -->
-        <!-- Content Row -->
         <div class="row">
             <!-- Map Column -->
-            <div class="col-md-10">
+            <div class="col-md-offset-1 col-md-10">
                 <!-- Embedded Google Map -->
                 <!-- src = 'http://maps.google.com/maps?hl=en&amp;ie=UTF8&amp;ll=37.0625,-95.677068&amp;spn=56.506174,79.013672&amp;t=m&amp;z=4&amp;output=embed' -->
                 <iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyB4s1b2brpC2l4TpMDbtxcx58o7IZqRsSw&q=Calhoun+Riverside+RV+Retreat,Tivoli+TX"></iframe>
             </div>
-            <!-- Contact Details Column -->
-           <!--  <div class="col-md-4">
-                <h3>Contact Details</h3>
-                <p>
-                    125 Haeber Ln<br>
-                Tivoli, TX 77990<br>
-                </p>
-                <p><i class="fa fa-phone"></i> 
-                    <abbr title="Phone">P</abbr>: (361) 550-7536</p>
-                <p><i class="fa fa-envelope-o"></i> 
-                    <abbr title="Email">E</abbr>: <a href="mailto:name@example.com">calhoun@calhounsrvretreats.com</a>
-                </p>
-                <p><i class="fa fa-clock-o"></i> 
-                    <abbr title="Hours">Hours</abbr>:<br> Monday - Friday: 9:00 AM to 6:00 PM<br>
-                    Saturday - Sunday 9:00 AM to 4:00 PM</p>
-                <ul class="list-unstyled list-inline list-social-icons">
-                    <li>
-                        <a href="https://www.facebook.com/Calhouns-Riverside-RV-Retreat-119688484898552/"><i class="fa fa-facebook-square fa-2x"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/jasonsinn1"><i class="fa fa-linkedin-square fa-2x"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://twitter.com/CalhounsRV"><i class="fa fa-twitter-square fa-2x"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://plus.google.com/+Calhounsriversidervretreat/about?gmbpt=true&hl=en&_ga=1.139408691.1474103541.1475111584"><i class="fa fa-google-plus-square fa-2x"></i></a>
-                    </li>
-                </ul>
-            </div> -->
-        <!-- </div> -->
-        <!-- /.row -->
-
+        </div>
         <!-- Contact Form -->
         <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
         <div class="row">
             <div class="col-md-6">
                 <h3>Send us a Message</h3>
-                <form name="sentMessage" id="contactForm" novalidate>
+                <form  name="sentMessage" id="contactForm" novalidate>
                     <div class="control-group form-group">
                         <div class="controls">
-                            <label>Full Name:</label>
+                            <label>First Name:</label>
                             <input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name.">
                             <p class="help-block"></p>
                         </div>
                     </div>
                     <div class="control-group form-group">
                         <div class="controls">
-                            <label>Phone Number:</label>
+                            <label>Last Name:</label>
+                            <input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name.">
+                            <p class="help-block"></p>
+                        </div>
+                    </div>
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label>Phone:</label>
                             <input type="tel" class="form-control" id="phone" required data-validation-required-message="Please enter your phone number.">
                         </div>
                     </div>
                     <div class="control-group form-group">
                         <div class="controls">
-                            <label>Email Address:</label>
+                            <label>Email:</label>
                             <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
                         </div>
                     </div>
@@ -235,9 +178,12 @@
                 </form>
             </div>
             <!-- Contact Details Column -->
-            <div class="col-md-4">
+            <div class="col-md-offset-2 col-md-4">
                 <h3>Contact Details</h3>
-                <p>
+                <p> Coordinates<br>
+                    Lat:<br>
+                    Long:<br>
+                <p> Address<br>
                     125 Haeber Ln<br>
                 Tivoli, TX 77990<br>
                 </p>
@@ -247,7 +193,7 @@
                     <abbr title="Email">E</abbr>: <a href="mailto:name@example.com">calhoun@calhounsrvretreats.com</a>
                 </p>
                 <p><i class="fa fa-clock-o"></i> 
-                    <abbr title="Hours">Hours</abbr>:<br> Monday - Friday: 9:00 AM to 6:00 PM<br>
+                    <abbr title="Hours">H</abbr>:<br> Monday - Friday: 9:00 AM to 6:00 PM<br>
                     Saturday - Sunday 9:00 AM to 4:00 PM</p>
             </div>
         </div>
