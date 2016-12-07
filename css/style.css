@@ -39,6 +39,23 @@ a:hover, a:focus {
     color: #337ab7;
 }
 
+table {
+    color: #5a4130;
+    border-color: #213fd9;
+}
+
+.table>thead>tr>th {
+    border-color: #213fd9;
+    } 
+
+.table>tbody>tr>th, .table>tbody>tr>td {
+    border-color: #213fd9;
+    border-bottom: 1px;
+}
+
+.table-hover>tbody>tr:hover {
+    background-color: #F5DEB3;
+}
 #logo {
     float: left;
     height: 45px;

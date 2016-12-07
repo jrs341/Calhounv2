@@ -386,6 +386,7 @@
     "type.less",
     "code.less",
     "grid.less",
+    "tables.less",
     "forms.less",
     "buttons.less",
     "responsive-utilities.less",
@@ -406,8 +407,7 @@
     "alert.js",
     "dropdown.js",
     "modal.js",
-    "collapse.js",
-    "transition.js"
+    "collapse.js"
   ],
-  "customizerUrl": "http://getbootstrap.com/customize/?id=c2751306d62b9d966515c0a62a65c1b9"
+  "customizerUrl": "http://getbootstrap.com/customize/?id=0bdf3ffd1fc25f8080f4a3257fd5884c"
 }
